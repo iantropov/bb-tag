@@ -5,9 +5,7 @@ $(function(){
       tags: ''
     },
 
-    setTags: function(tags) {
-      this.set('tags', tags)
-    },
+    setTags: function(tags) { this.set('tags', tags); },
 
     getTags: function() { return this.get('tags'); }
   });
